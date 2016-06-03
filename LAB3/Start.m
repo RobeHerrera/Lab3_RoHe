@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     /*This is like a nomal main*/
-    
+    self.lblMessage.text = @"Se la creyeron";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,4 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+/*Buttons methods*/
+- (IBAction)btnTrue1Pressed:(id)sender {
+    self.lblMessage.text = @"Btn 1 true pressed";
+}
+
+
+- (IBAction)btnFalse1Pressed:(id)sender {
+    self.lblMessage.text = @"Btn 1 false pressed";
+}
 @end

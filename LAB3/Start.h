@@ -9,6 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface Start : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblMessage;
+
+@property (strong, nonatomic) IBOutlet UIButton *btnTrue1;
+@property (strong, nonatomic) IBOutlet UIButton *btnFalse1;
+
+- (IBAction)btnTrue1Pressed:(id)sender;
+- (IBAction)btnFalse1Pressed:(id)sender;
+
 
 
 @end
