@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Start : UIViewController
+@interface Start : UIViewController{
+    IBOutlet UIScrollView *scroller;
+}
+
+//@property (strong, nonatomic) IBOutlet UIScrollView *scroller;
+
 @property (strong, nonatomic) IBOutlet UILabel *lblMessage;
 
 @property (strong, nonatomic) IBOutlet UIButton *btnTrue1;
