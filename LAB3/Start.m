@@ -30,12 +30,16 @@
 }
 
 /*Buttons methods*/
-- (IBAction)btnTrue1Pressed:(id)sender {
-    self.lblMessage.text = @"Btn 1 true pressed";
+- (IBAction)bnt1YesPressed:(id)sender {
+    self.img1Ans.image = [UIImage imageNamed:@"success.jpg"];
 }
-
-
-- (IBAction)btnFalse1Pressed:(id)sender {
-    self.lblMessage.text = @"Btn 1 false pressed";
+- (IBAction)bnt1NoPressed:(id)sender {
+    self.img1Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+- (IBAction)bnt2YesPressed:(id)sender {
+    self.img2Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+- (IBAction)bnt2NoPressed:(id)sender {
+     self.img2Ans.image = [UIImage imageNamed:@"success.jpg"];
 }
 @end

@@ -18,7 +18,7 @@
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <subviews>
                                     <view autoresizesSubviews="NO" contentMode="scaleToFill" id="XnR-Rl-oqS">
-                                        <rect key="frame" x="0.0" y="-20" width="375" height="2500"/>
+                                        <rect key="frame" x="0.0" y="-9" width="375" height="2500"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <subviews>
                                             <navigationBar contentMode="scaleToFill" id="jov-iw-yOp">
@@ -50,20 +50,26 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="bnt1YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="56t-Od-WAC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qGj-rY-tW2">
                                                 <rect key="frame" x="260" y="278" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="bnt1NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X24-Gd-Cco"/>
+                                                </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x01_-_Pilot_200" id="rU4-Os-q87">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x01_-_Pilot_200.png" id="rU4-Os-q87">
                                                 <rect key="frame" x="73" y="155" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="H0F-bH-FY3">
-                                                <rect key="frame" x="172" y="278" width="30" height="30"/>
+                                                <rect key="frame" x="172" y="283" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -75,19 +81,16 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0K9-cQ-LZU">
-                                                <rect key="frame" x="73" y="490" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
-                                                <animations/>
-                                                <state key="normal" title="Yes"/>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dqn-9C-ecM">
                                                 <rect key="frame" x="260" y="490" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="bnt2NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V9u-dC-Q6P"/>
+                                                </connections>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x06_-_Crazy_Handful_of_Nothin'_PROMO_5" id="9t1-Kh-cV6">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x06_-_Crazy_Handful_of_Nothin'_PROMO_5.jpg" id="9t1-Kh-cV6">
                                                 <rect key="frame" x="73" y="362" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
@@ -117,13 +120,13 @@
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4x13_-_Hector" id="qr9-k6-0Ag">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4x13_-_Hector.png" id="qr9-k6-0Ag">
                                                 <rect key="frame" x="73" y="577" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="jT4-UG-ZGJ">
-                                                <rect key="frame" x="174" y="705" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="712" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -147,7 +150,7 @@
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3x08_-_I_See_You_16" id="W9E-ct-vLd">
+                                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3x08_-_I_See_You_16.png" id="W9E-ct-vLd">
                                                 <rect key="frame" x="73" y="803" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
@@ -177,7 +180,7 @@
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x01_-_Uno_3" id="LDe-sU-Kil">
+                                            <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x01_-_Uno_3.png" id="LDe-sU-Kil">
                                                 <rect key="frame" x="73" y="1032" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
@@ -196,24 +199,24 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IoZ-6U-DRa">
-                                                <rect key="frame" x="73" y="1390" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="1400" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="idt-eG-cIs">
-                                                <rect key="frame" x="260" y="1390" width="46" height="30"/>
+                                                <rect key="frame" x="260" y="1400" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2x02_-_Grilled_14" id="o3v-Ye-e4g">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2x02_-_Grilled_14.png" id="o3v-Ye-e4g">
                                                 <rect key="frame" x="73" y="1265" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="oXY-1f-FMN">
-                                                <rect key="frame" x="174" y="1390" width="30" height="30"/>
+                                                <rect key="frame" x="172" y="1400" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -226,19 +229,24 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9GE-al-nde">
-                                                <rect key="frame" x="73" y="1638" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="1655" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7jk-2E-WCV">
-                                                <rect key="frame" x="260" y="1638" width="46" height="30"/>
+                                                <rect key="frame" x="263" y="1655" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                             </button>
+                                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jackWelker.jpg" id="Bcv-JR-sg7">
+                                                <rect key="frame" x="73" y="1516" width="233" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                                <animations/>
+                                            </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="oF2-XF-Z67">
-                                                <rect key="frame" x="174" y="1638" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="1655" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -251,24 +259,24 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xnm-jG-Nls">
-                                                <rect key="frame" x="73" y="1879" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="1890" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ohF-rz-Hgr">
-                                                <rect key="frame" x="260" y="1879" width="46" height="30"/>
+                                                <rect key="frame" x="260" y="1890" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jane" id="IXn-Mv-bMT">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jane.jpg" id="IXn-Mv-bMT">
                                                 <rect key="frame" x="73" y="1757" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="y3M-ej-7jw">
-                                                <rect key="frame" x="174" y="1879" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="1890" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -281,24 +289,24 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gMd-94-dYW">
-                                                <rect key="frame" x="73" y="2112" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="2124" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X7d-ts-Bzi">
-                                                <rect key="frame" x="260" y="2112" width="46" height="30"/>
+                                                <rect key="frame" x="260" y="2124" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5x13_-_Todd_dispara" id="5Xd-04-oge">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5x13_-_Todd_dispara.png" id="5Xd-04-oge">
                                                 <rect key="frame" x="73" y="1989" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Hnu-7v-UcF">
-                                                <rect key="frame" x="174" y="2112" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="2124" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -311,24 +319,24 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vvu-2O-0XB">
-                                                <rect key="frame" x="76" y="2337" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="2341" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="00j-si-cBg">
-                                                <rect key="frame" x="263" y="2337" width="46" height="30"/>
+                                                <rect key="frame" x="263" y="2341" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                             </button>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced-29441-1394390408-1" id="muE-i8-Ti4">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced-29441-1394390408-1.jpg" id="muE-i8-Ti4">
                                                 <rect key="frame" x="73" y="2213" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="TvH-qa-sud">
-                                                <rect key="frame" x="174" y="2337" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="2341" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -354,11 +362,15 @@
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             </imageView>
-                                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jackWelker" id="Bcv-JR-sg7">
-                                                <rect key="frame" x="73" y="1516" width="233" height="120"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0K9-cQ-LZU">
+                                                <rect key="frame" x="73" y="490" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
-                                            </imageView>
+                                                <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="bnt2YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5zc-1S-twi"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -376,6 +388,10 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="2500"/>
                     <connections>
+                        <outlet property="bnt1Yes" destination="UXd-h0-aS3" id="9DJ-1f-lcX"/>
+                        <outlet property="btn1No" destination="qGj-rY-tW2" id="Egd-9j-aSU"/>
+                        <outlet property="img1Ans" destination="H0F-bH-FY3" id="k66-Ah-FlN"/>
+                        <outlet property="img2Ans" destination="SaZ-GH-29D" id="p21-Tx-LVG"/>
                         <outlet property="lblMessage" destination="btG-ht-O8Q" id="Mbx-bj-f6j"/>
                         <outlet property="scroller" destination="Al6-TW-0nE" id="TcN-tP-h8l"/>
                     </connections>
@@ -386,16 +402,16 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1x01_-_Pilot_200" width="270" height="152"/>
-        <image name="1x01_-_Uno_3" width="250" height="140"/>
-        <image name="1x06_-_Crazy_Handful_of_Nothin'_PROMO_5" width="267" height="144"/>
-        <image name="2x02_-_Grilled_14" width="185" height="104"/>
-        <image name="3x08_-_I_See_You_16" width="250" height="141"/>
-        <image name="4x13_-_Hector" width="262" height="144"/>
-        <image name="5x13_-_Todd_dispara" width="250" height="140"/>
-        <image name="Jane" width="269" height="139"/>
-        <image name="enhanced-29441-1394390408-1" width="360" height="203"/>
-        <image name="jackWelker" width="360" height="194"/>
+        <image name="1x01_-_Pilot_200.png" width="270" height="152"/>
+        <image name="1x01_-_Uno_3.png" width="250" height="140"/>
+        <image name="1x06_-_Crazy_Handful_of_Nothin'_PROMO_5.jpg" width="267" height="144"/>
+        <image name="2x02_-_Grilled_14.png" width="185" height="104"/>
+        <image name="3x08_-_I_See_You_16.png" width="250" height="141"/>
+        <image name="4x13_-_Hector.png" width="262" height="144"/>
+        <image name="5x13_-_Todd_dispara.png" width="250" height="140"/>
+        <image name="Jane.jpg" width="269" height="139"/>
+        <image name="enhanced-29441-1394390408-1.jpg" width="360" height="203"/>
+        <image name="jackWelker.jpg" width="360" height="194"/>
     </resources>
     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
