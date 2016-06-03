@@ -29,17 +29,80 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 /*Buttons methods*/
-- (IBAction)bnt1YesPressed:(id)sender {
+- (IBAction)btn1YesPressed:(id)sender {
     self.img1Ans.image = [UIImage imageNamed:@"success.jpg"];
 }
-- (IBAction)bnt1NoPressed:(id)sender {
+- (IBAction)btn1NoPressed:(id)sender {
     self.img1Ans.image = [UIImage imageNamed:@"incorrect.png"];
 }
-- (IBAction)bnt2YesPressed:(id)sender {
+
+- (IBAction)btn2YesPressed:(id)sender {
     self.img2Ans.image = [UIImage imageNamed:@"incorrect.png"];
 }
-- (IBAction)bnt2NoPressed:(id)sender {
-     self.img2Ans.image = [UIImage imageNamed:@"success.jpg"];
+- (IBAction)btn2NoPressed:(id)sender {
+    self.img2Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+
+- (IBAction)btn3YesPressed:(id)sender {
+    self.img3Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+- (IBAction)btn3NoPressed:(id)sender {
+    self.img3Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+
+- (IBAction)test:(id)sender {
+    self.img3Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+
+- (IBAction)btn4YesPressed:(id)sender {
+    self.img4Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+- (IBAction)btn4NoPressed:(id)sender {
+    self.img4Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+
+- (IBAction)btn5YesPressed:(id)sender {
+    self.img5Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+- (IBAction)btn5NoPressed:(id)sender {
+    self.img5Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+
+- (IBAction)btn6YesPressed:(id)sender {
+    self.img6Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+- (IBAction)btn6NoPressed:(id)sender {
+     self.img6Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+
+- (IBAction)btn7YesPressed:(id)sender {
+    self.img7Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+- (IBAction)btn7NoPressed:(id)sender {
+    self.img7Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+
+- (IBAction)btn8YesPressed:(id)sender {
+    self.img8Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+- (IBAction)btn8NoPressed:(id)sender {
+    self.img8Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+
+
+- (IBAction)btn9YesPressed:(id)sender {
+    self.img9Ans.image = [UIImage imageNamed:@"incorrect.png"];
+}
+- (IBAction)btn9NoPressed:(id)sender {
+    self.img9Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+
+- (IBAction)btn10YesPressed:(id)sender {
+    self.img10Ans.image = [UIImage imageNamed:@"success.jpg"];
+}
+- (IBAction)btn10NoPressed:(id)sender {
+    self.img10Ans.image = [UIImage imageNamed:@"incorrect.png"];
 }
 @end

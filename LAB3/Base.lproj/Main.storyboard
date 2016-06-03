@@ -13,7 +13,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Al6-TW-0nE">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" canCancelContentTouches="NO" id="Al6-TW-0nE">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <subviews>
@@ -51,7 +51,7 @@
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
                                                 <connections>
-                                                    <action selector="bnt1YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="56t-Od-WAC"/>
+                                                    <action selector="btn1YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GpX-sK-jcb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qGj-rY-tW2">
@@ -60,7 +60,7 @@
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                                 <connections>
-                                                    <action selector="bnt1NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X24-Gd-Cco"/>
+                                                    <action selector="btn1NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jXg-wd-TQf"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x01_-_Pilot_200.png" id="rU4-Os-q87">
@@ -81,13 +81,22 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0K9-cQ-LZU">
+                                                <rect key="frame" x="73" y="490" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                                <animations/>
+                                                <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn2YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="al8-zV-q6k"/>
+                                                </connections>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Dqn-9C-ecM">
                                                 <rect key="frame" x="260" y="490" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                                 <connections>
-                                                    <action selector="bnt2NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V9u-dC-Q6P"/>
+                                                    <action selector="btn2NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4RF-UL-te2"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x06_-_Crazy_Handful_of_Nothin'_PROMO_5.jpg" id="9t1-Kh-cV6">
@@ -108,17 +117,23 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RRo-P8-9yb">
-                                                <rect key="frame" x="73" y="705" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RRo-P8-9yb" propertyAccessControl="none">
+                                                <rect key="frame" x="73" y="712" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn3YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aA4-hI-JrS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dtK-nd-Dda">
-                                                <rect key="frame" x="260" y="705" width="46" height="30"/>
+                                                <rect key="frame" x="263" y="712" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="btn3NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mxu-QJ-mMq"/>
+                                                </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4x13_-_Hector.png" id="qr9-k6-0Ag">
                                                 <rect key="frame" x="73" y="577" width="233" height="120"/>
@@ -129,6 +144,7 @@
                                                 <rect key="frame" x="174" y="712" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. Gus Fring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xNm-zX-42M">
                                                 <rect key="frame" x="43" y="767" width="93" height="45"/>
@@ -138,17 +154,23 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i1b-F5-OYk">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i1b-F5-OYk" userLabel="btn4 Yes">
                                                 <rect key="frame" x="73" y="941" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn4YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nub-JG-zCQ"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vYW-RB-gHf">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vYW-RB-gHf" userLabel="btn4 No">
                                                 <rect key="frame" x="260" y="941" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="btn4NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hUt-Tt-RHU"/>
+                                                </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3x08_-_I_See_You_16.png" id="W9E-ct-vLd">
                                                 <rect key="frame" x="73" y="803" width="233" height="120"/>
@@ -173,12 +195,19 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn5YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F7K-Lb-134"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K8r-kM-qRW">
                                                 <rect key="frame" x="260" y="1182" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="btn5NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yBM-So-9Ol"/>
+                                                    <action selector="btn5YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pSU-HS-rnf"/>
+                                                </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x01_-_Uno_3.png" id="LDe-sU-Kil">
                                                 <rect key="frame" x="73" y="1032" width="233" height="120"/>
@@ -203,12 +232,18 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn6YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gKl-F6-mpz"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="idt-eG-cIs">
                                                 <rect key="frame" x="260" y="1400" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="btn6NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rkV-rJ-w5i"/>
+                                                </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2x02_-_Grilled_14.png" id="o3v-Ye-e4g">
                                                 <rect key="frame" x="73" y="1265" width="233" height="120"/>
@@ -263,12 +298,20 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn7YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AXh-vV-YJD"/>
+                                                    <action selector="btn8YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xn2-yb-SzU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ohF-rz-Hgr">
                                                 <rect key="frame" x="260" y="1890" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="btn7NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="76P-Ya-DhL"/>
+                                                    <action selector="btn8NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w4O-Z0-b7i"/>
+                                                </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jane.jpg" id="IXn-Mv-bMT">
                                                 <rect key="frame" x="73" y="1757" width="233" height="120"/>
@@ -293,12 +336,18 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn9YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZjD-O8-DoI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X7d-ts-Bzi">
-                                                <rect key="frame" x="260" y="2124" width="46" height="30"/>
+                                                <rect key="frame" x="273" y="2124" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="btn9NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kh7-Ul-6ZJ"/>
+                                                </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5x13_-_Todd_dispara.png" id="5Xd-04-oge">
                                                 <rect key="frame" x="73" y="1989" width="233" height="120"/>
@@ -323,12 +372,18 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn10YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vVe-xz-iN0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="00j-si-cBg">
                                                 <rect key="frame" x="263" y="2341" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="btn10NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xD-LA-iMy"/>
+                                                </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced-29441-1394390408-1.jpg" id="muE-i8-Ti4">
                                                 <rect key="frame" x="73" y="2213" width="233" height="120"/>
@@ -362,13 +417,13 @@
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0K9-cQ-LZU">
-                                                <rect key="frame" x="73" y="490" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b5I-cf-pMB">
+                                                <rect key="frame" x="19" y="643" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
-                                                <state key="normal" title="Yes"/>
+                                                <state key="normal" title="Button"/>
                                                 <connections>
-                                                    <action selector="bnt2YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5zc-1S-twi"/>
+                                                    <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8FT-8d-7Q7"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -388,10 +443,20 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="2500"/>
                     <connections>
-                        <outlet property="bnt1Yes" destination="UXd-h0-aS3" id="9DJ-1f-lcX"/>
+                        <outlet property="bnt3No" destination="dtK-nd-Dda" id="HG0-yR-tYL"/>
+                        <outlet property="bnt3Yes" destination="RRo-P8-9yb" id="QQj-Rg-cY7"/>
                         <outlet property="btn1No" destination="qGj-rY-tW2" id="Egd-9j-aSU"/>
+                        <outlet property="btn1Yes" destination="UXd-h0-aS3" id="yva-JM-MiU"/>
+                        <outlet property="img10Ans" destination="TvH-qa-sud" id="85e-CC-hUb"/>
                         <outlet property="img1Ans" destination="H0F-bH-FY3" id="k66-Ah-FlN"/>
                         <outlet property="img2Ans" destination="SaZ-GH-29D" id="p21-Tx-LVG"/>
+                        <outlet property="img3Ans" destination="jT4-UG-ZGJ" id="jwB-Dr-5yo"/>
+                        <outlet property="img4Ans" destination="93w-sp-4sC" id="n36-hM-X0i"/>
+                        <outlet property="img5Ans" destination="Bu4-cg-iCa" id="N6x-NG-xgq"/>
+                        <outlet property="img6Ans" destination="oXY-1f-FMN" id="sEv-WJ-nkA"/>
+                        <outlet property="img7Ans" destination="oF2-XF-Z67" id="80R-0r-pKM"/>
+                        <outlet property="img8Ans" destination="y3M-ej-7jw" id="uvA-0J-FPq"/>
+                        <outlet property="img9Ans" destination="Hnu-7v-UcF" id="jmw-gd-AeT"/>
                         <outlet property="lblMessage" destination="btG-ht-O8Q" id="Mbx-bj-f6j"/>
                         <outlet property="scroller" destination="Al6-TW-0nE" id="TcN-tP-h8l"/>
                     </connections>
