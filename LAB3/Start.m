@@ -20,7 +20,7 @@
     /*This is like a nomal main*/
     //self.lblMessage.text = @"Se la creyeron";
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(375, 2000)];
+    [scroller setContentSize:CGSizeMake(375, 2500)];
     
 }
 
