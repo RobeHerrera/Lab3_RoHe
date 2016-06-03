@@ -18,9 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     /*This is like a nomal main*/
-    self.lblMessage.text = @"Se la creyeron";
+    //self.lblMessage.text = @"Se la creyeron";
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320, 1000)];
+    [scroller setContentSize:CGSizeMake(375, 2000)];
     
 }
 
