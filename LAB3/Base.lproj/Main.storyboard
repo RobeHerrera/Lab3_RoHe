@@ -10,15 +10,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="Start" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" canCancelContentTouches="NO" id="Al6-TW-0nE">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
+                            <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Al6-TW-0nE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="3000"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
                                 <subviews>
                                     <view autoresizesSubviews="NO" contentMode="scaleToFill" id="XnR-Rl-oqS">
-                                        <rect key="frame" x="0.0" y="-9" width="375" height="2500"/>
+                                        <rect key="frame" x="0.0" y="-9" width="375" height="3000"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                         <subviews>
                                             <navigationBar contentMode="scaleToFill" id="jov-iw-yOp">
@@ -144,7 +144,6 @@
                                                 <rect key="frame" x="174" y="712" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
-                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. Gus Fring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xNm-zX-42M">
                                                 <rect key="frame" x="43" y="767" width="93" height="45"/>
@@ -155,7 +154,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i1b-F5-OYk" userLabel="btn4 Yes">
-                                                <rect key="frame" x="73" y="941" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="949" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
@@ -164,7 +163,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vYW-RB-gHf" userLabel="btn4 No">
-                                                <rect key="frame" x="260" y="941" width="46" height="30"/>
+                                                <rect key="frame" x="260" y="949" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
@@ -178,7 +177,7 @@
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="93w-sp-4sC">
-                                                <rect key="frame" x="174" y="941" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="949" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
@@ -206,7 +205,6 @@
                                                 <state key="normal" title="No"/>
                                                 <connections>
                                                     <action selector="btn5NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yBM-So-9Ol"/>
-                                                    <action selector="btn5YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pSU-HS-rnf"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1x01_-_Uno_3.png" id="LDe-sU-Kil">
@@ -220,7 +218,7 @@
                                                 <animations/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6.Hank Schrader" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5uh-wh-Kth">
-                                                <rect key="frame" x="43" y="1227" width="129" height="45"/>
+                                                <rect key="frame" x="43" y="1220" width="129" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -228,7 +226,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IoZ-6U-DRa">
-                                                <rect key="frame" x="73" y="1400" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="1393" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
@@ -237,7 +235,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="idt-eG-cIs">
-                                                <rect key="frame" x="260" y="1400" width="46" height="30"/>
+                                                <rect key="frame" x="260" y="1393" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
@@ -246,17 +244,17 @@
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2x02_-_Grilled_14.png" id="o3v-Ye-e4g">
-                                                <rect key="frame" x="73" y="1265" width="233" height="120"/>
+                                                <rect key="frame" x="73" y="1258" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="oXY-1f-FMN">
-                                                <rect key="frame" x="172" y="1400" width="30" height="30"/>
+                                                <rect key="frame" x="172" y="1393" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.Jack Welker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UzT-Vo-EGq">
-                                                <rect key="frame" x="43" y="1480" width="105" height="45"/>
+                                                <rect key="frame" x="43" y="1448" width="105" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -264,29 +262,35 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9GE-al-nde">
-                                                <rect key="frame" x="73" y="1655" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="1623" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
+                                                <connections>
+                                                    <action selector="btn7YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RAo-s1-L1N"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7jk-2E-WCV">
-                                                <rect key="frame" x="263" y="1655" width="46" height="30"/>
+                                                <rect key="frame" x="263" y="1623" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
+                                                <connections>
+                                                    <action selector="btn7NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Ab-1G-v8e"/>
+                                                </connections>
                                             </button>
                                             <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jackWelker.jpg" id="Bcv-JR-sg7">
-                                                <rect key="frame" x="73" y="1516" width="233" height="120"/>
+                                                <rect key="frame" x="73" y="1484" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="oF2-XF-Z67">
-                                                <rect key="frame" x="174" y="1655" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="1623" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.Jane Margolis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3jQ-mu-HxM">
-                                                <rect key="frame" x="43" y="1722" width="121" height="45"/>
+                                                <rect key="frame" x="43" y="1675" width="121" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -294,37 +298,35 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xnm-jG-Nls">
-                                                <rect key="frame" x="73" y="1890" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="1843" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
                                                 <connections>
-                                                    <action selector="btn7YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AXh-vV-YJD"/>
                                                     <action selector="btn8YesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xn2-yb-SzU"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ohF-rz-Hgr">
-                                                <rect key="frame" x="260" y="1890" width="46" height="30"/>
+                                                <rect key="frame" x="260" y="1843" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
                                                 <connections>
-                                                    <action selector="btn7NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="76P-Ya-DhL"/>
                                                     <action selector="btn8NoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w4O-Z0-b7i"/>
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jane.jpg" id="IXn-Mv-bMT">
-                                                <rect key="frame" x="73" y="1757" width="233" height="120"/>
+                                                <rect key="frame" x="73" y="1710" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="y3M-ej-7jw">
-                                                <rect key="frame" x="174" y="1890" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="1843" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9.Todd Alquist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PMO-hK-rfi">
-                                                <rect key="frame" x="43" y="1954" width="131" height="45"/>
+                                                <rect key="frame" x="43" y="1897" width="131" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -332,7 +334,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gMd-94-dYW">
-                                                <rect key="frame" x="73" y="2124" width="46" height="30"/>
+                                                <rect key="frame" x="73" y="2067" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
@@ -341,7 +343,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X7d-ts-Bzi">
-                                                <rect key="frame" x="273" y="2124" width="46" height="30"/>
+                                                <rect key="frame" x="273" y="2067" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
@@ -350,17 +352,17 @@
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5x13_-_Todd_dispara.png" id="5Xd-04-oge">
-                                                <rect key="frame" x="73" y="1989" width="233" height="120"/>
+                                                <rect key="frame" x="73" y="1932" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Hnu-7v-UcF">
-                                                <rect key="frame" x="174" y="2124" width="30" height="30"/>
+                                                <rect key="frame" x="174" y="2067" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10. Lydia Rodarte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YWb-DQ-WHh">
-                                                <rect key="frame" x="43" y="2177" width="131" height="45"/>
+                                                <rect key="frame" x="40" y="2110" width="131" height="45"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -368,7 +370,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vvu-2O-0XB">
-                                                <rect key="frame" x="73" y="2341" width="46" height="30"/>
+                                                <rect key="frame" x="70" y="2274" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="Yes"/>
@@ -377,7 +379,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="00j-si-cBg">
-                                                <rect key="frame" x="263" y="2341" width="46" height="30"/>
+                                                <rect key="frame" x="260" y="2274" width="46" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <state key="normal" title="No"/>
@@ -386,17 +388,17 @@
                                                 </connections>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced-29441-1394390408-1.jpg" id="muE-i8-Ti4">
-                                                <rect key="frame" x="73" y="2213" width="233" height="120"/>
+                                                <rect key="frame" x="70" y="2146" width="233" height="120"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="TvH-qa-sud">
-                                                <rect key="frame" x="174" y="2341" width="30" height="30"/>
+                                                <rect key="frame" x="171" y="2274" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <animations/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eSC-hi-5gU">
-                                                <rect key="frame" x="29" y="2398" width="57" height="21"/>
+                                                <rect key="frame" x="34" y="2326" width="57" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -404,7 +406,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please answer all the questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oQ1-nu-qQR">
-                                                <rect key="frame" x="94" y="2398" width="239" height="21"/>
+                                                <rect key="frame" x="99" y="2326" width="239" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -412,20 +414,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="FuD-7v-ep1">
-                                                <rect key="frame" x="56" y="2427" width="253" height="66"/>
+                                                <rect key="frame" x="20" y="2355" width="335" height="175"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                                 <animations/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b5I-cf-pMB">
-                                                <rect key="frame" x="19" y="643" width="46" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <animations/>
-                                                <state key="normal" title="Button"/>
-                                                <connections>
-                                                    <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8FT-8d-7Q7"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                         <animations/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -441,7 +434,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="2500"/>
+                    <size key="freeformSize" width="375" height="3000"/>
                     <connections>
                         <outlet property="bnt3No" destination="dtK-nd-Dda" id="HG0-yR-tYL"/>
                         <outlet property="bnt3Yes" destination="RRo-P8-9yb" id="QQj-Rg-cY7"/>
@@ -457,7 +450,9 @@
                         <outlet property="img7Ans" destination="oF2-XF-Z67" id="80R-0r-pKM"/>
                         <outlet property="img8Ans" destination="y3M-ej-7jw" id="uvA-0J-FPq"/>
                         <outlet property="img9Ans" destination="Hnu-7v-UcF" id="jmw-gd-AeT"/>
+                        <outlet property="imgResult" destination="FuD-7v-ep1" id="ApS-r6-USW"/>
                         <outlet property="lblMessage" destination="btG-ht-O8Q" id="Mbx-bj-f6j"/>
+                        <outlet property="lblResult" destination="oQ1-nu-qQR" id="IOl-gk-0dY"/>
                         <outlet property="scroller" destination="Al6-TW-0nE" id="TcN-tP-h8l"/>
                     </connections>
                 </viewController>

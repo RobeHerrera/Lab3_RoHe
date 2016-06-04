@@ -35,7 +35,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *bnt3No;
 - (IBAction)btn3YesPressed:(id)sender;
 - (IBAction)btn3NoPressed:(id)sender;
-- (IBAction)test:(id)sender;
 
 /*Option Number 4. */
 @property (strong, nonatomic) IBOutlet UIImageView *img4Ans;
@@ -71,6 +70,10 @@
 @property (strong, nonatomic) IBOutlet UIImageView *img10Ans;
 - (IBAction)btn10YesPressed:(id)sender;
 - (IBAction)btn10NoPressed:(id)sender;
+
+/*Show the resulting of the questions*/
+@property (strong, nonatomic) IBOutlet UILabel *lblResult;
+@property (strong, nonatomic) IBOutlet UIImageView *imgResult;
 
 
 @end
