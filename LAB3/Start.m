@@ -141,13 +141,12 @@
     flag10=0;
     int result= flag1+flag2+flag3+flag4+flag5+flag6+flag7+flag8+flag9+flag10;
     if (result == 10) {
-        //
         self.lblResult.text = @"Eres un Master XD..";
-        self.imgResult.image = [UIImage imageNamed:@"master.jpg"];
+        self.imgResult.image = [UIImage imageNamed:@"master.jpeg"];
     } else if (result<10 && result >=5 ) {
         self.lblResult.text = @"Te hace falta ver mas Breking Bad";
         self.imgResult.image = [UIImage imageNamed:@"TV.jpg"];
-    } else {
+    } else if (result<5 ) {
         self.lblResult.text = @"Eres un Looser =C..";
         self.imgResult.image = [UIImage imageNamed:@"sad.png"];
     }
